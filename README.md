@@ -30,16 +30,20 @@ Instead of manually searching, use PowerShell to automate log retrieval:
 Get-WinEvent -FilterHashtable @{LogName='Security'; ID=4624} | Select-Object TimeCreated, Message | Format-Table -AutoSize
 ```
 ![Successful Login](screenshots/EVENT_4624_4625.png)
+![PowerShell Success](screenshots/PowerShellTASK2Success.png)
+
 
 ## ❌ Check for Failed Logins:
 ```powershell
 Get-WinEvent -FilterHashtable @{LogName='Security'; ID=4625} | Select-Object TimeCreated, Message | Format-Table -AutoSize
 ```
 ![Failed Login](screenshots/EVENTDetails_4624_4625.png)
+![PowerShell Failed](screenshots/PowerShellTASK2Failed.png)
 ## 🚨 Analyze for Brute-Force Attacks:
 ```powershell
 Get-WinEvent -FilterHashtable @{LogName='Security'; ID=4625} | Group-Object -Property Message | Sort-Object Count -Descending | Format-Table -AutoSize
 ```
+![Brute-Force](screenshots/PowerShellBruteForceTASK2.png)
 
 Step 4: Findings & Insights
 ✅ Successfully simulated successful and failed login attempts.
