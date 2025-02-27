@@ -46,6 +46,9 @@ Step 4: Findings & Insights
 📷 Screenshots
 Screenshots of Event Viewer and PowerShell output are available in the screenshots/ folder.
 
-📢 Author💻 Nishan Rajmulik
-🔗 GitHub: https://github.com/nishanrajmulik1
-🔗 LinkedIn: https://linkedin.com/in/nishanrajmulik
+## 📢 Author  
+📌 **Nishan Rajmulik**  
+
+🔗 **GitHub:** [nishanrajmulik1](https://github.com/nishanrajmulik1/)  
+🔗 **LinkedIn:** [nishanrajmulik](https://linkedin.com/in/nishanrajmulik/)  
+
